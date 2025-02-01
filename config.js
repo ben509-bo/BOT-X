@@ -20,10 +20,10 @@ global.website = process.env.GURL || " https://whatsapp.com/channel/0029Va9wmuz8
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/jTJDVYj/Leonardo-Phoenix-A-vibrant-animestyle-illustration-of-a-young-2.jpg";
 global.devs = "2347045035241","233268374753";
 global.sudo = process.env.SUDO || "2347045035241","233268374753";
-global.owner = process.env.OWNER_NUMBER || "2347045035241","233268374753";
+global.owner = process.env.OWNER_NUMBER || "50941610347";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "true";
-global.wlcm = process.env.WELCOME || "true";
+global.gdbye = process.env.GOODBYE || "false";
+global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -33,7 +33,7 @@ global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "true";
+global.read_status = process.env.AUTO_READ_STATUS || "false";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
@@ -43,7 +43,7 @@ global.scan = "https://nikkapair.onrender.com/pair";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  " " // session id here
+  " eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQU16YW5VcUcyZWlia2lYSVZvNkNmbzdwYWJXZUVteWNkWVBqYU5rWktFRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYkFrSjIzdXZGOGNjVkdPUUVLTFkxdWQwV3BaN21BMlE1NTBPVk1JSUFVMD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXUFIzYVBicHBPQi9XMUxvaExpWTltc0dRNVgyZnZaVnhpcXZXclF2aDNRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJYakNDRDJVbDRWdTI2WWJZTVFBSVNoajd4L3FHaWdxWHNPdXg5N2xZN1dvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjhOMTFZd2xGRVlwWWg2TUhjSU8zZkNlVXlHN3BNNjFDYWtUdmRMNmlXMkU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkxMSU13Vm10ek1jY3lxcWpNelBnN0hNcmpxWlhybnhBNTBuYzRCaEFqUU09In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieU9GV3lDMkswVmtIOXBHU2ZFdTE5amxhalZiaDYydlREVjJtZ2lCSjBrMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiN2E4YzhIYzJJbWJnY0JnRDBPYmxoY2FBL09TMEtpUnBZYldmQ1JLTXhuTT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNlT2JsMDlGTHNyVUdYUkE1cVNwR3VHNjBQYnppOUZnM05sOVJEcDB1dUZCRE85U2JIaTk4SGxsYTdncE5LUDdsZEZSK21lbDVzRHQ1QmpPRkxIM2dRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTQzLCJhZHZTZWNyZXRLZXkiOiJQRlZwNXJtOThvK2NIM0kwNUVRVjkyYmE4WkdJQ2tLVHFDeUtPcDdOSGVZPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJLQldzd3ZoVVFfNlBPTE10U1N1akd3IiwicGhvbmVJZCI6IjgzYTA1Y2YxLTVmMzctNGQ3Zi04YzM0LTI5NWViYTI4OTA3OCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxVy9TalVRR3lab1Bwc281d1ZXcEwyb2NkaW89In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQWhoVU1SY3BKbEIzL1dEM0FudHJSVXFOSmpNPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IktQN1RWTktWIiwibWUiOnsiaWQiOiI1MDk0MTYxMDM0Nzo4M0BzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTWJwbGdFUW9zajR2QVlZQmlBQUtBQT0iLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoidHl2dHl4VWkrQnV4SDdkbE14emRjZHVOTDdWVkRuckRldDNCVkVGQ1FYZz0iLCJhY2NvdW50U2lnbmF0dXJlIjoiSldpeFJRN0JiMk5XbXJ1R1dQbHdZQ0pLVXZKaEpPdkxlMkRDUDVTMllZRTVOWk5HUXZZN2VhZjlzZkVkNml3KzlQRU1zVlNxRUMyYU9abEdFcHJpREE9PSIsImRldmljZVNpZ25hdHVyZSI6InpaT21KSnMxK2JrVU5QYkpDYkI0K3o5NmtLd1hheFgvRVoyZTV1YVNYOXlwZFJyVUxxU2NvVnBmd1NEV2dYSGhYRWJWY2lvYjY4NzRmTWRPU0ZJUGlBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiNTA5NDE2MTAzNDc6ODNAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCYmNyN2NzVkl2Z2JzUiszWlRNYzNYSGJqUysxVlE1NnczcmR3VlJCUWtGNCJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTczODQxNzE5OX0=" // session id here
 module.exports = {
   menu: process.env.MENU || "2",
   HANDLERS: process.env.PREFIX || "/",
